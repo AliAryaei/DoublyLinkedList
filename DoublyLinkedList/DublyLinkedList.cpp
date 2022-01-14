@@ -142,7 +142,7 @@ bool DublyLinkedList::replace(Node* oldNode, Node* newNode) {
 	//checks for error
 	Node* n;
 	n = head;
-	if (n == nullptr) {
+	if (newNode == nullptr||oldNode==nullptr) {
 		return false;
 	}
 
